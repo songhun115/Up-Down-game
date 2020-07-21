@@ -1,0 +1,56 @@
+body,
+ul,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: aquamarine;
+}
+a {
+  text-decoration: none;
+  color: cornsilk;
+}
+h1 {
+  color: cornflowerblue;
+  text-align: center;
+  font-size: 80px;
+  margin-top: 100px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+}
+.container > input {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: transparent;
+  border-color: ;
+}
+
+.count__box__container {
+  display: flex;
+  margin-top: 30px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.count__box__container > .min__max,
+.count__box__container > .count,
+.count__box__container > button {
+  background-color: cornflowerblue;
+  color: cornsilk;
+  padding: 10px;
+  border-radius: 7px;
+}
+.count__box__container > .min__max {
+  text-align: center;
+
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.count__box__container > button {
+  border-color: transparent;
+}
